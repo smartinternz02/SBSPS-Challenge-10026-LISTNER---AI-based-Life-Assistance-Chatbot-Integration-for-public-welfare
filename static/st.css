@@ -52,9 +52,14 @@
     .contact-category {
       margin-bottom: 2rem;
       padding: 1rem;
-      border: 1px solid #ccc;
+      border: 3px solid hsl(0, 0%, 58%);
       background-color: white;
+      border-radius: 30px;
       box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);}
+      .contact-category:hover{
+        background-color: grey;
+        border: blue 5px solid;
+      }
 
     header{
       padding:15px;
