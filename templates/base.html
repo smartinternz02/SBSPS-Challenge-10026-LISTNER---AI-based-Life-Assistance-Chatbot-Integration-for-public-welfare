@@ -1,0 +1,50 @@
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"></head>
+<link type="text/css" href="{{ url_for('static', filename='st.css') }}" rel="stylesheet"  />
+<body class="bg-nav">
+  <header class="text-bg-dark">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <img class="bi me-2"  src="{{url_for('static', filename='logo1.jpg')}}" height="50" width="50" style="border: 1px solid black;border-radius: 200px; "/>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          
+          <li><a href="{{ url_for('home') }}" class="nav-link px-2 text-white">Home</a></li>
+          <li></li><a href="{{ url_for('about') }}"class="nav-link px-2 text-white">About us</a></li>
+          <li><a href="{{ url_for('faqs') }}" class="nav-link px-2 text-white">FAQs</a></li>
+          
+        </ul>
+        <div class="buttons">
+          <form action="/login" method="GET">
+            <button type="submit" class="btn btn-outline-light me-2">Login</button>
+          </form>
+          <form action="/signup" method="GET">
+            <button type="submit" class="btn btn-warning">Sign-up</button>
+          </form>
+        </div>
+       
+        
+      </div>
+    </div>
+  </header>
+
+  <!--Body-->
+   {% block body %} {% endblock %}
+  <!--footer-->
+
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="home.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link px-2 text-body-secondary">About us</a></li>
+        <li class="nav-item"><a href="faqs.html" class="nav-link px-2 text-body-secondary">FAQs</a></li> 
+      </ul>
+      <p class="text-center text-body-secondary">Bots For Your Dots</p>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+  <html>

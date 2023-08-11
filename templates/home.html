@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block body %}
+
+<div><img src="{{url_for('static', filename='home.jpg')}}" style="width:100%; height: 500;"></div>
+
+
+<br>
+<br>
+
+<div class="teamhead"><h1>OUR SERVICES</h1></div>
+
+<br>
+<br>
+<div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="{{url_for('static', filename='you.jpg')}}"height="150" width="150" style="border: 1px solid black;border-radius: 200px;">
+        <h2 class="fw-normal">FOR YOU</h2>
+        <p>Are you feeling mentally distressed? We have some helpful videos for you.</p>
+        
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="{{url_for('static', filename='eme.jpg')}}"height="150" width="150" style="border: 1px solid black;border-radius: 200px;">
+        <h2 class="fw-normal">EMERGENCY CONTACTS</h2>
+        <p>If you or someone you know is in anguish, please do not hesitate to seek help. There are many resources and services available to support you. </p>
+        
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        
+        <img src="{{url_for('static', filename='listener.jpg')}}"height="150" width="150" style="border: 1px solid black;border-radius: 200px;">
+        <h2 class="fw-normal">LISTENER</h2>
+        <p>Tired of searching, Don't worry. A versatile and intelligent chatbot that can assist and support you in various domains.</p>
+        
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+    <br>
+    <br>
+    
+    <div class="teamhead"><h1>SOME STATS</h1></div>
+    
+    <br>
+    <br>
+
+
+    <br>
+<br>
+
+<div class="teamhead"><h3>KEEP SMILING!</h3></div>
+
+    <!-- START THE FEATURETTES -->
+
+    
+  </div>
+{% endblock %}
