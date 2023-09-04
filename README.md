@@ -30,9 +30,9 @@ LISTENER AI_BOT is an innovative chatbot project designed to empower individuals
 
 
 ## Contributors:-
-**RASHMI 
-KSHITIZ
-PRATEEK
+**RASHMI ,
+KSHITIZ,
+PRATEEK,
 TANISHA**
 
 
