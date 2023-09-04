@@ -1,0 +1,10 @@
+flask
+secrets
+json
+io
+pandas
+matplotlib
+seaborn
+datetime
+textblob
+plotly
