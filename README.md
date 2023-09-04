@@ -17,8 +17,8 @@
  
 
 ## :hammer_and_wrench: Technology Stack
--Website: HTML, CSS, BOOTSTRAP,JavaScript
--Backend: Flask,MySql, NlpCloud API
+<ul><li>Website: HTML, CSS, BOOTSTRAP,JavaScript</li>
+<li>Backend: Flask,MySql, NlpCloud API</li></ul>
 
 ## :crossed_swords: IBM Services Used: 
 - IBM Cloud Functions
