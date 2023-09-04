@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style-with-prefix.css') }}">
+    <style>
+        .srouce{
+            text-align: center;
+            color: #ffffff;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="form-container">
+
+            <div class="srouce">
+            <div class="form-body">
+                <h2 class="title">Sign up with</h2>
+                <div class="social-login">
+                    <ul class = "ul-login">
+                    <li class="google"><a href="#"><img id = "abc" src="{{url_for('static', filename='google.png')}}" ></img>Google</a></li>
+                    <li class="fb"><a href="#"><img src= "{{url_for('static', filename='fb.png')}}"  width="30"></img>Facebook</a></li>
+                    </ul>
+                </div><!-- SOCIAL LOGIN -->
+
+                <div class="_or">or</div>
+
+                <form action="/signup" class="the-form" method='POST'>
+                    {% with messages = get_flashed_messages() %}
+                    {% if messages %}
+                    <ul class="flashes">
+                    {% for message in messages %}
+                    <li>{{ message }}</li>
+                    {% endfor %}
+                    </ul>
+                    {% endif %}
+                    {% endwith %}
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                    <label for="name">Name</label>
+                    <input type="name" name="name" id="full-name" placeholder="Enter your name">
+                    <label for="birthday">Date of Birth</label>
+                    <input type="date" id="birthday" name="dob">
+                    <label for="password">Set Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter your password">
+                    <label for="password">Confirm Password</label>
+                    <input type="password" name="password_check" id="password" placeholder="Confirm password">
+                    <input type="submit" value="Sign Up">
+
+                </form>
+                
+
+            </div><!-- FORM BODY-->
+
+            <div class="form-footer">
+                <div>
+                    <span>Already have an account?</span> <a href="/login">Login</a>
+                </div>
+            </div><!-- FORM FOOTER -->
+
+        </div><!-- FORM CONTAINER -->
+    </div>
+
+</body>
+</html>

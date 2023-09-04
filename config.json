@@ -1,0 +1,5 @@
+{"params":{
+    "local_server":"True",
+    "local_uri":"mysql://root:@localhost/listener",
+    "prod_uri":"mysql://root:@localhost/listener"
+}}
