@@ -3,7 +3,10 @@
 # IBM HackChallenge - 2023
 - Team Name: Bots For Your Dots
 - Project Title: SBSPS-Challenge-10026-LISTNER---AI-based-Life-Assistance-Chatbot-Integration-for-public-welfare
-  <img src ="https://github.com/rashmisoni2003/pri/assets/141663998/5b3d1dda-2f5c-4f93-95e0-b37ce3fb6526" align ="center">
+- <div align="center">
+    <img src ="https://github.com/rashmisoni2003/pri/assets/141663998/5b3d1dda-2f5c-4f93-95e0-b37ce3fb6526" alt ="logo" height="150">
+  </div>
+  
 <h1 align="center">LISTNER---AI-based-Life-Assistance-Chatbot-Integration-for-public-welfare</h1>
 
 <br>
@@ -64,13 +67,18 @@ Our vision at Bots for Your Dots is to leverage cutting-edge AI and NLP (Natural
   - Dont't have anyone to talk
   - The Chatbot is powered by IBM watson!
   - This chatbot uses NLP and sentimental analysis for better understanding
-  - ![image](https://github.com/rashmisoni2003/pri/assets/141663998/093b52e2-a5dd-4a2b-965f-6308b4606810)
-  - ![WhatsApp Image 2023-09-04 at 22 41 21](https://github.com/rashmisoni2003/pri/assets/141663998/518f605c-9a79-44c6-b3bc-91bcbe8033ff)
-
+  - <div align="center">
+    <img src ="https://github.com/rashmisoni2003/pri/assets/141663998/093b52e2-a5dd-4a2b-965f-6308b4606810" alt ="chat" height="450">
+    <img src ="https://github.com/rashmisoni2003/pri/assets/141663998/518f605c-9a79-44c6-b3bc-91bcbe8033ff" alt ="chat" height="450">
+  </div>
+  
 
 - ### **Severe Mental Health disorder cases in the Karnataka State Analysis**
   - Graphical representation to analyse the situation
-  - ![image](https://github.com/rashmisoni2003/pri/assets/141663998/db952bdf-8f23-478d-9576-444f8f75ea3a)
+  - <div align="center">
+    <img src ="https://github.com/rashmisoni2003/pri/assets/141663998/db952bdf-8f23-478d-9576-444f8f75ea3a" alt ="chat" height="250">
+  </div>
+  
 
 - ### **Whatsapp and Twilio Integration**
   - Easily Assessable to you
